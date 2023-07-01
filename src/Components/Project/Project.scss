@@ -1,0 +1,49 @@
+.Project{
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    background-color: var(--primary-color);
+    h1{
+        font-size: 150px;
+        position: relative;
+        margin: 120px;
+        color: var(--tertiary-color);
+        z-index: 2;
+        span{
+            color: var(--primary-color);
+            text-shadow: 0px 0px 10px var(--tertiary-color);
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 90%;
+            left: 24%;
+            background-color:var(--tertiary-color);
+            height: 12px;
+            width: 450px;
+            z-index: -1;
+        }
+    }
+}
+
+@media screen and (max-width:1560px){
+    .Project{
+        h1{
+            font-size: 100px;
+            margin: 80px;
+            &::after{
+                width: 300px;
+            }
+        }
+    }
+}
+@media screen and (max-width:900px){
+    .Project{
+        h1{
+            margin: 60px;
+            font-size: 50px;
+            &::after{
+                width: 150px;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.TimeLine{
+    background: var(--primary-color);
+    padding-bottom: 200px;
+    #font{
+        color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: 70px;
+            letter-spacing: 2px;
+            span{
+                color:var(--tertiary-color);
+            }
+        }
+    }
+    .timeLineContain{
+        display: flex;
+        flex-direction: column;
+        img{
+            height: auto;
+            width:400px;
+            margin: 12px;
+            border-radius:12px;
+        }
+    }
+}
+
+@media screen and (max-width:1560px){
+    .TimeLine{
+        #font{
+            p{
+                font-size: 60px;
+            }
+        }
+        .timeLineContain{
+            display: flex;
+            flex-direction: column;
+            color: var(--primary-color);
+            img{
+                height: auto;
+                width:350px;
+                margin: 12px;
+                border-radius:5px;
+            }
+        }
+    }
+
+}
+  
+@media screen and (max-width:900px){
+    .TimeLine{
+        #font{
+            p{
+                font-size: 25px;
+            }
+            code{
+                font-size: 10px;
+            }
+        }
+        .timeLineContain{
+            display: flex;
+            flex-direction: column;
+            color: var(--primary-color);
+            img{
+                height: auto;
+                width:110px;
+                margin: 10px;
+                border-radius:5px;
+            }
+        }
+    }
+
+}
