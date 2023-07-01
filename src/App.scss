@@ -6,8 +6,7 @@
   overflow-x: hidden;
 }
 .App{
-  overflow-y: scroll;
-  scroll-snap-type:y mandatory;
+  // overflow-y: scroll;
 }
 
 body::-webkit-scrollbar{
