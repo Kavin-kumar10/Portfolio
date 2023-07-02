@@ -71,6 +71,7 @@
         &_mid{
             width: 100%;
             h1{
+                font-family: 'Belanosima', sans-serif;
                 font-family: 'Poiret One', cursive;
                 font-size: clamp(5px,15vw,250px);
                 letter-spacing: clamp(5px,1vw,20px);
@@ -90,6 +91,7 @@
         padding: 25px;
         height: 10%;
         h1{
+            font-size: clamp(15px,1.5vw,40px);
             color: var(--secondary-color);
             font-weight: 100;
         }

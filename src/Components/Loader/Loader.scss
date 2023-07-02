@@ -16,3 +16,10 @@
         color: var(--secondary-color);
     }
 }
+@media screen and (max-width:600px){
+    .Loader{
+        img{
+            height: 200px;
+        }
+    }
+}
