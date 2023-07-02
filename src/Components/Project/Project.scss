@@ -10,7 +10,10 @@
         z-index: 2;
         span{
             color: var(--primary-color);
-            text-shadow: 0px 0px 10px var(--tertiary-color);
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: var(--tertiary-color);
+
         }
         &::after{
             content: "";

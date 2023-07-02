@@ -5,7 +5,7 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import Project from "./Components/Project"
 import Loader from './Components/Loader';
-// import TimeLine from "./Components/TimeLine"
+import TimeLine from "./Components/TimeLine"
 
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
             <Landpage/>
             <About/>
             <Skills/>
+            <Project/>
+            <TimeLine/>
         </>:
         <Loader/>}
       </div>
