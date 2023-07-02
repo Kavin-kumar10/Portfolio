@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7892f8b1.css",
-    "main.js": "/Portfolio/static/js/main.86d32184.js",
+    "main.css": "/Portfolio/static/css/main.ad8dcaba.css",
+    "main.js": "/Portfolio/static/js/main.e9498813.js",
     "static/media/Img1.jpg": "/Portfolio/static/media/Img1.66b9ea827eb19a406761.jpg",
     "static/media/Img3.jpg": "/Portfolio/static/media/Img3.837cb0a33acba56c9d18.jpg",
+    "static/media/FakeUtube.png": "/Portfolio/static/media/FakeUtube.89a156752d3657298fab.png",
+    "static/media/epic_25.png": "/Portfolio/static/media/epic_25.d0292b4556e721f20296.png",
     "static/media/Img2.jpg": "/Portfolio/static/media/Img2.9103a798c310a0cce617.jpg",
+    "static/media/Healer-Dashboard.png": "/Portfolio/static/media/Healer-Dashboard.aa616bb42a0ce6a22b20.png",
+    "static/media/Todo_react.png": "/Portfolio/static/media/Todo_react.00c2ab2506688eefff24.png",
+    "static/media/kavin-note.png": "/Portfolio/static/media/kavin-note.07cca1d5e51754d2ef7d.png",
     "static/media/skills.png": "/Portfolio/static/media/skills.04c22af3ec3a081062b7.png",
     "index.html": "/Portfolio/index.html",
-    "main.7892f8b1.css.map": "/Portfolio/static/css/main.7892f8b1.css.map",
-    "main.86d32184.js.map": "/Portfolio/static/js/main.86d32184.js.map"
+    "main.ad8dcaba.css.map": "/Portfolio/static/css/main.ad8dcaba.css.map",
+    "main.e9498813.js.map": "/Portfolio/static/js/main.e9498813.js.map"
   },
   "entrypoints": [
-    "static/css/main.7892f8b1.css",
-    "static/js/main.86d32184.js"
+    "static/css/main.ad8dcaba.css",
+    "static/js/main.e9498813.js"
   ]
 }
